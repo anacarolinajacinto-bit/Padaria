@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
     color: #3B2A1E;             /* marrom escuro (texto) */
@@ -67,7 +67,7 @@ blockquote {
 
 .card {
     flex: 1 1 250px;       /* cresce, encolhe, largura base 250px */
-    border: 1px solid #E0C9A6;
+    border: 1px solid #bf87ff;
     border-radius: 8px;
     padding: 12px;
     background-color: #FFFFFF;
@@ -105,13 +105,13 @@ blockquote {
 }
 
 .tabela-cardapio thead {
-    background-color: #A0521A;
-    color: #FFFFFF;
+    background-color: #581aa0;
+    color: #2b1a41;
 }
 
 /* ===== Rodapé ===== */
 .rodape {
-    background-color: #3B2A1E;
+    background-color: #a148f5;
     color: #FFFFFF;
     text-align: center;
     padding: 16px;
